@@ -36,7 +36,7 @@
                 </div>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Inscreva-se</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                 <li><a href="login1.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
             </ul>
         </div>
@@ -48,8 +48,21 @@
                 <img class="rounded float-start" src="../../imagem/socialmedia.gif" class="rounded mx-auto d-block">
             </div>
             <div class="col-sm-6">
-                <h1 style="color: beige; text-align:center;">FOTOLOGO</h1>
-                <p>O FOTOLOGO ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Endereço de email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+
+                    </div>
+                    <div class="form-group">
+                        
+                        <label for="exampleInputPassword1">Senha</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn btn-primary">Criar conta</button>
+                </form>
             </div>
         </div>
     </div>
