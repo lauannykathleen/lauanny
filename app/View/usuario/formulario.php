@@ -13,18 +13,15 @@
 </head>
 
 <body>
-
     <nav class="navbar navbar-light" style="background-color:#ffcbdb;">
         <div class="container-fluid">
             <div class="navbar-header">
                 <img class="navbar-brand" src="../../imagem/Sin título-1.png"></img>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
             </ul>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-            </ul>
+
             <form class="navbar-form navbar-left" action="/action_page.php" style="text-align: center;">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="@usuario" name="search">
@@ -36,8 +33,8 @@
                 </div>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="login1.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+                <li><a href="formulario.php"><span class="glyphicon glyphicon-user"></span> Inscreva-se</a></li>
+                <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
             </ul>
         </div>
     </nav>
@@ -47,27 +44,30 @@
             <div class="col-sm-5">
                 <img class="rounded float-start" src="../../imagem/socialmedia.gif" class="rounded mx-auto d-block">
             </div>
+
             <div class="col-sm-6">
+
                 <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Endereço de email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
-
+                        <label for="exampleInputname">Nome</label>
+                        <input type="name" class="form-control" id="exampleInputName" placeholder="Nome">
                     </div>
                     <div class="form-group">
-                        
+                        <label for="exampleInputEmail1">Endereço de email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                    </div>
+                    <div class="form-group">
                         <label for="exampleInputPassword1">Senha</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
                     </div>
-
                     <button type="submit" class="btn btn-primary">Enviar</button>
-                    <button type="submit" class="btn btn-primary">Criar conta</button>
                 </form>
+
+
+
             </div>
         </div>
     </div>
-
-
 
 
 </body>

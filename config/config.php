@@ -2,11 +2,11 @@
 
 //arquivo de configuração
 
-define('HOST' , 'db-fotolog');
+define('HOST' , 'localhost');
 define('BANCO' , 'fotolog');
-define('PORTA' , '5432');
+define('PORTA' , '3306');
 define('USER' , 'root');
-define('PASSWORD' , 'root');
+define('PASSWORD' , 'aq1sw2DE#');
 
 
 

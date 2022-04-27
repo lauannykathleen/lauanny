@@ -17,14 +17,12 @@
     <nav class="navbar navbar-light" style="background-color:#ffcbdb;">
         <div class="container-fluid">
             <div class="navbar-header">
-                <img class="navbar-brand" src="../../imagem/Sin título-1.png"></img>
+                <img class="navbar-brand" src="../../imagem/img1.png"></img>
             </div>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
             </ul>
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-            </ul>
+           
             <form class="navbar-form navbar-left" action="/action_page.php" style="text-align: center;">
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="@usuario" name="search">
@@ -36,8 +34,8 @@
                 </div>
             </form>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Inscreva-se</a></li>
-                <li><a href="login1.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
+                <li><a href="formulario.php"><span class="glyphicon glyphicon-user"></span> Inscreva-se</a></li>
+                <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Entrar</a></li>
             </ul>
         </div>
     </nav>

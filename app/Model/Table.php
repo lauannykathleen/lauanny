@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Model;
+namespace app\Model;
 
 use Database\Connection;
-use Database\Driver\Pgsql;
+use Database\Driver\mysql;
 
 class Table
 {
@@ -14,7 +14,7 @@ class Table
     public function __construct()
     {
         $conn = new Connection(HOST, BANCO, PORTA, USER, PASSWORD);
-        $this->setConexao($conn->connect(new Pgsql()));
+        $this->setConexao($conn->connect(new mysql()));
     }
 
     public function getConexao()
